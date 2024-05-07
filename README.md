@@ -55,28 +55,28 @@ Authentication required: Yes
 # Purchase Orders
 ## Create a Purchase Order
 URL: /api/purchase_orders/
-Method: POST
-Description: Creates a new purchase order.
-Parameters:
-Add parameters required for purchase order creation.
-Authentication required: Yes
+Method: POST\n
+Description: Creates a new purchase order.\n
+Parameters: \n
+Add parameters required for purchase order creation. \n
+Authentication required: Yes \n
 ## Retrieve, Update, Delete a Purchase Order
 URL: /api/purchase_orders/<id>/
-Method: GET, PUT, DELETE
-Description: Retrieves, updates, or deletes a specific purchase order by ID.
-Parameters: None
-Authentication required: Yes
+Method: GET, PUT, DELETE \n
+Description: Retrieves, updates, or deletes a specific purchase order by ID.\n
+Parameters: None\n
+Authentication required: Yes\n
 # Vendor Performance
 ## Retrieve Vendor Performance Metrics
-URL: /api/vendors/<id>/performance/
-Method: GET
+URL: /api/vendors/<id>/performance/ \n
+Method: GET \n
 Description: Retrieves performance metrics for a specific vendor.
 Parameters: None
 Authentication required: Yes
 Acknowledge Purchase Order
 ## Acknowledge Receipt of Purchase Order
-URL: /api/purchase_orders/<id>/acknowledge/
-Method: POST
-Description: Acknowledges receipt of a purchase order, updating its acknowledgement date and setting delivery date.
+URL: /api/purchase_orders/<id>/acknowledge/  \n
+Method: POST \n
+Description: Acknowledges receipt of a purchase order, updating its acknowledgement date and setting delivery date. \n
 Parameters: None
 Authentication required: Yes
