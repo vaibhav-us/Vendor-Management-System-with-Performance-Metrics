@@ -80,3 +80,18 @@ Method: POST
 Description: Acknowledges receipt of a purchase order, updating its acknowledgement date and setting delivery date. 
 Parameters: None
 Authentication required: Yes
+## Sample data 
+For creating Purchase Order
+{
+        "id": 1,
+        "po_number": "1",
+        "in_time_delivery": true,
+        "items": {
+            "item": "iphone"
+        },
+        "quantity": 3
+        "quality_rating": 0.0,
+        "vendor": 1
+    }
+For creating vendor
+
