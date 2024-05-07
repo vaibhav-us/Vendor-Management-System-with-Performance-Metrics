@@ -9,7 +9,7 @@ Django
 Django REST Framework
 # Installation
 Clone the repository:
-  git clone https://github.com/your-username/vendor-management-system.git
+  git clone https://github.com/vaibhav-us/Vendor-Management-System-with-Performance-Metrics.git
 Navigate to the project directory:
   cd vendor-management-system
 Install dependencies:
