@@ -22,7 +22,7 @@ Start the development server:
 
 # API Endpoints
 # Authentication
-# Login
+## Login
 URL: /api/login/
 Method: POST
 Description: Logs in a user and returns a token for authentication.
@@ -30,7 +30,7 @@ Parameters:
 username: User's username
 password: User's password
 Authentication required: No
-# Logout
+## Logout
 URL: /api/logout/
 Method: POST
 Description: Logs out a user by deleting their token.
@@ -38,7 +38,7 @@ Parameters:
 token: User's authentication token
 Authentication required: Yes
 # Vendors
-Create a Vendor
+## Create a Vendor
 URL: /api/vendors/
 Method: POST
 Description: Creates a new vendor.
@@ -46,35 +46,35 @@ Parameters:
 name: Name of the vendor
 Add any additional parameters required for vendor creation.
 Authentication required: Yes
-# Retrieve, Update, Delete a Vendor
+## Retrieve, Update, Delete a Vendor
 URL: /api/vendors/<vendor_id>/
 Method: GET, PUT, DELETE
 Description: Retrieves, updates, or deletes a specific vendor by ID.
 Parameters: None
 Authentication required: Yes
-## Purchase Orders
-# Create a Purchase Order
+# Purchase Orders
+## Create a Purchase Order
 URL: /api/purchase_orders/
 Method: POST
 Description: Creates a new purchase order.
 Parameters:
 Add parameters required for purchase order creation.
 Authentication required: Yes
-# Retrieve, Update, Delete a Purchase Order
+## Retrieve, Update, Delete a Purchase Order
 URL: /api/purchase_orders/<id>/
 Method: GET, PUT, DELETE
 Description: Retrieves, updates, or deletes a specific purchase order by ID.
 Parameters: None
 Authentication required: Yes
 # Vendor Performance
-# Retrieve Vendor Performance Metrics
+## Retrieve Vendor Performance Metrics
 URL: /api/vendors/<id>/performance/
 Method: GET
 Description: Retrieves performance metrics for a specific vendor.
 Parameters: None
 Authentication required: Yes
 Acknowledge Purchase Order
-# Acknowledge Receipt of Purchase Order
+## Acknowledge Receipt of Purchase Order
 URL: /api/purchase_orders/<id>/acknowledge/
 Method: POST
 Description: Acknowledges receipt of a purchase order, updating its acknowledgement date and setting delivery date.
